@@ -1,0 +1,16 @@
+body{
+	background-image: url("../resources/bckk2.jpg");
+	background-size: 100% 100%;
+}
+title{
+	font: white;
+}
+h1,h2{
+	color: white;
+}
+.jumbotron {
+    margin-bottom: 30px;
+    height: 250px;
+    color: blue;
+    text-shadow: white 0.2em 0.2em 0.2em;
+    background-color: rgba(0,0,200,0.25);

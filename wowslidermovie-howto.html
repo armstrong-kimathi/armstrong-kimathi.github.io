@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WOWSlider</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="WOWSlider" />
+	
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+
+
+<style>
+.instuction {
+	font-family: sans-serif, Arial;
+	display: block;
+	margin: 0 auto;
+	max-width: 820px;
+	width: 100%;
+	padding: 0 70px;
+	color: #222;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.instuction h1 img {
+	max-width: 170px;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+.instuction h1 {
+	color: #2F98B3;
+	text-align: center;
+}
+.instuction h2 {
+	position: relative;
+	font-size: 1.1em;
+	color: #2F98B3;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+.instuction h2 span.num {
+	position: absolute;
+	left: -70px;
+	top: -18px;
+	display: inline-block;
+	vertical-align: middle;
+	font-style: italic;
+	font-size: 1.1em;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: #2F98B3;
+	color: #fff;
+	border-radius: 50%;
+}
+.instuction .mono {
+	color: #000;
+	font-family: monospace;
+	font-size: 1.3em;
+	font-weight: normal;
+}
+.instuction li.mono {
+	font-size: 1.5em;
+}
+
+.instuction ul {
+	font-size: 0.9em;
+	margin-top: 0;
+	padding-left: 0;
+	list-style: none;
+}
+.instuction .note {
+	color: #A3A3B2;
+	font-style: italic;
+	padding-top: 10px;
+}
+.instuction p.note {
+	text-align: center;
+	padding-top: 0;
+	margin-top: 4px;
+}
+.instuction textarea {
+	font-size: 0.9em;
+	min-height: 60px;
+	padding: 10px;
+	margin: 0;
+	overflow: auto;
+	max-width: 100%;
+	width: 100%;
+}
+.instuction a,
+.instuction a:visited {
+	color: #2F98B3;
+}
+</style>
+
+
+</head>
+<body style="margin:auto">
+
+<br>
+
+<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/img20170103wa0040.jpg" alt="IMG-20170103-WA0040" title="IMG-20170103-WA0040" id="wows1_0"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="data1/images/img20170103wa0040.jpg" title="IMG-20170103-WA0040"><span><img src="data1/tooltips/img20170103wa0040.jpg" alt="IMG-20170103-WA0040"/>1</span></a>
+		<a href="data1/images/img20170103wa0041.jpg" title="IMG-20170103-WA0041"><span>2</span></a>
+		<a href="data1/images/img20170103wa0042.jpg" title="IMG-20170103-WA0042"><span>3</span></a>
+		<a href="data1/images/img20170103wa0043.jpg" title="IMG-20170103-WA0043"><span>4</span></a>
+		<a href="data1/images/img20170103wa0044.jpg" title="IMG-20170103-WA0044"><span>5</span></a>
+		<a href="data1/images/img20170105wa0007.jpg" title="IMG-20170105-WA0007"><span>6</span></a>
+		<a href="data1/images/img20170105wa0010.jpg" title="IMG-20170105-WA0010"><span>7</span></a>
+		<a href="data1/images/img20170105wa0011.jpg" title="IMG-20170105-WA0011"><span>8</span></a>
+		<a href="data1/images/img20170106wa012.jpg" title="IMG-20170106-WA012"><span>9</span></a>
+		<a href="data1/images/img20170106wa014.jpg" title="IMG-20170106-WA014"><span>10</span></a>
+		<a href="data1/images/img20170106wa015.jpg" title="IMG-20170106-WA015"><span>11</span></a>
+		<a href="data1/images/img20170106wa027.jpg" title="IMG-20170106-WA027"><span>12</span></a>
+		<a href="data1/images/img20170106wa028.jpg" title="IMG-20170106-WA028"><span>13</span></a>
+		<a href="data1/images/img20170106wa029.jpg" title="IMG-20170106-WA029"><span>14</span></a>
+		<a href="data1/images/img20170106wa030.jpg" title="IMG-20170106-WA030"><span>15</span></a>
+		<a href="data1/images/img20170106wa031.jpg" title="IMG-20170106-WA031"><span>16</span></a>
+		<a href="data1/images/img20170106wa032.jpg" title="IMG-20170106-WA032"><span>17</span></a>
+		<a href="data1/images/img20170106wa034.jpg" title="IMG-20170106-WA034"><span>18</span></a>
+		<a href="data1/images/img20170107wa0026.jpg" title="IMG-20170107-WA0026"><span>19</span></a>
+		<a href="data1/images/img20170107wa0027.jpg" title="IMG-20170107-WA0027"><span>20</span></a>
+		<a href="data1/images/img20170107wa0028.jpg" title="IMG-20170107-WA0028"><span>21</span></a>
+		<a href="data1/images/img20170110wa0002.jpg" title="IMG-20170110-WA0002"><span>22</span></a>
+		<a href="data1/images/img20170110wa0003.jpg" title="IMG-20170110-WA0003"><span>23</span></a>
+		<a href="data1/images/img20170110wa0009.jpg" title="IMG-20170110-WA0009"><span>24</span></a>
+		<a href="data1/images/img20170110wa0012.jpg" title="IMG-20170110-WA0012"><span>25</span></a>
+		<a href="data1/images/img20170110wa0013.jpg" title="IMG-20170110-WA0013"><span>26</span></a>
+		<a href="data1/images/img20170110wa0014.jpg" title="IMG-20170110-WA0014"><span>27</span></a>
+		<a href="data1/images/img20170110wa0021.jpg" title="IMG-20170110-WA0021"><span>28</span></a>
+		<a href="data1/images/img20170110wa0025.jpg" title="IMG-20170110-WA0025"><span>29</span></a>
+		<a href="data1/images/img20170110wa0026.jpg" title="IMG-20170110-WA0026"><span>30</span></a>
+		<a href="data1/images/img20170112wa0001.jpg" title="IMG-20170112-WA0001"><span>31</span></a>
+		<a href="data1/images/img20170112wa0002.jpg" title="IMG-20170112-WA0002"><span>32</span></a>
+		<a href="data1/images/img20170112wa0012.jpg" title="IMG-20170112-WA0012"><span>33</span></a>
+		<a href="data1/images/img20170112wa0013.jpg" title="IMG-20170112-WA0013"><span>34</span></a>
+		<a href="data1/images/img20170112wa0015.jpg" title="IMG-20170112-WA0015"><span>35</span></a>
+		<a href="data1/images/img20170112wa0017.jpg" title="IMG-20170112-WA0017"><span>36</span></a>
+		<a href="data1/images/img20170112wa0018.jpg" title="IMG-20170112-WA0018"><span>37</span></a>
+		<a href="data1/images/img20170112wa0033.jpg" title="IMG-20170112-WA0033"><span>38</span></a>
+		<a href="data1/images/img20170112wa0034.jpg" title="IMG-20170112-WA0034"><span>39</span></a>
+		<a href="data1/images/img20170112wa0035.jpg" title="IMG-20170112-WA0035"><span>40</span></a>
+		<a href="data1/images/img20170112wa0037.jpg" title="IMG-20170112-WA0037"><span>41</span></a>
+		<a href="data1/images/img20170113wa0062.jpg" title="IMG-20170113-WA0062"><span>42</span></a>
+		<a href="data1/images/img20170113wa0063.jpg" title="IMG-20170113-WA0063"><span>43</span></a>
+		<a href="data1/images/img20170113wa0065.jpg" title="IMG-20170113-WA0065"><span>44</span></a>
+		<a href="data1/images/img20170113wa0078.jpg" title="IMG-20170113-WA0078"><span>45</span></a>
+		<a href="data1/images/img20170113wa0104.jpg" title="IMG-20170113-WA0104"><span>46</span></a>
+		<a href="data1/images/img20170113wa0106.jpg" title="IMG-20170113-WA0106"><span>47</span></a>
+		<a href="data1/images/img20170116wa002.jpg" title="IMG-20170116-WA002"><span>48</span></a>
+		<a href="data1/images/img20170116wa003.jpg" title="IMG-20170116-WA003"><span>49</span></a>
+		<a href="data1/images/img20170118wa000.jpg" title="IMG-20170118-WA000"><span>50</span></a>
+		<a href="data1/images/img20170118wa0008.jpg" title="IMG-20170118-WA0008"><span>51</span></a>
+		<a href="data1/images/img20170118wa0010.jpg" title="IMG-20170118-WA0010"><span>52</span></a>
+		<a href="data1/images/img20170119wa0001.jpg" title="IMG-20170119-WA0001"><span>53</span></a>
+		<a href="data1/images/img20170119wa0002.jpg" title="IMG-20170119-WA0002"><span>54</span></a>
+		<a href="data1/images/img20170119wa0003.jpg" title="IMG-20170119-WA0003"><span>55</span></a>
+		<a href="data1/images/img20170119wa0015.jpg" title="IMG-20170119-WA0015"><span>56</span></a>
+		<a href="data1/images/img20170119wa0016.jpg" title="IMG-20170119-WA0016"><span>57</span></a>
+		<a href="data1/images/img20170119wa0021.jpg" title="IMG-20170119-WA0021"><span>58</span></a>
+		<a href="data1/images/img20170120wa0004.jpg" title="IMG-20170120-WA0004"><span>59</span></a>
+		<a href="data1/images/img20170120wa0007.jpg" title="IMG-20170120-WA0007"><span>60</span></a>
+		<a href="data1/images/img20170120wa0008.jpg" title="IMG-20170120-WA0008"><span>61</span></a>
+		<a href="data1/images/img20170120wa0014.jpg" title="IMG-20170120-WA0014"><span>62</span></a>
+		<a href="data1/images/img20170120wa0015.jpg" title="IMG-20170120-WA0015"><span>63</span></a>
+		<a href="data1/images/img20170120wa0016.jpg" title="IMG-20170120-WA0016"><span>64</span></a>
+		<a href="data1/images/img20170120wa0017.jpg" title="IMG-20170120-WA0017"><span>65</span></a>
+		<a href="data1/images/img20170121wa0001.jpg" title="IMG-20170121-WA0001"><span>66</span></a>
+		<a href="data1/images/img20170121wa0002.jpg" title="IMG-20170121-WA0002"><span>67</span></a>
+		<a href="data1/images/img20170121wa0003.jpg" title="IMG-20170121-WA0003"><span>68</span></a>
+		<a href="data1/images/img20170123wa0002.jpg" title="IMG-20170123-WA0002"><span>69</span></a>
+		<a href="data1/images/img20170123wa0025.jpg" title="IMG-20170123-WA0025"><span>70</span></a>
+		<a href="data1/images/img20170124wa0002.jpg" title="IMG-20170124-WA0002"><span>71</span></a>
+		<a href="data1/images/img20170124wa0003.jpg" title="IMG-20170124-WA0003"><span>72</span></a>
+		<a href="data1/images/img20170124wa0018.jpg" title="IMG-20170124-WA0018"><span>73</span></a>
+		<a href="data1/images/img20170124wa0021.jpg" title="IMG-20170124-WA0021"><span>74</span></a>
+		<a href="data1/images/img20170124wa0031.jpg" title="IMG-20170124-WA0031"><span>75</span></a>
+		<a href="data1/images/img20170124wa0032.jpg" title="IMG-20170124-WA0032"><span>76</span></a>
+		<a href="data1/images/img20170124wa0036.jpg" title="IMG-20170124-WA0036"><span>77</span></a>
+		<a href="data1/images/img20170125wa000.jpg" title="IMG-20170125-WA000"><span>78</span></a>
+		<a href="data1/images/img20170125wa0002.jpg" title="IMG-20170125-WA0002"><span>79</span></a>
+		<a href="data1/images/img20170125wa0003.jpg" title="IMG-20170125-WA0003"><span>80</span></a>
+		<a href="data1/images/img20170126wa0004.jpg" title="IMG-20170126-WA0004"><span>81</span></a>
+		<a href="data1/images/img20170126wa0005.jpg" title="IMG-20170126-WA0005"><span>82</span></a>
+		<a href="data1/images/img20170128wa0012.jpg" title="IMG-20170128-WA0012"><span>83</span></a>
+		<a href="data1/images/img20170128wa0015.jpg" title="IMG-20170128-WA0015"><span>84</span></a>
+		<a href="data1/images/img20170128wa0016.jpg" title="IMG-20170128-WA0016"><span>85</span></a>
+		<a href="data1/images/img20170128wa0017.jpg" title="IMG-20170128-WA0017"><span>86</span></a>
+		<a href="data1/images/img20170128wa0019.jpg" title="IMG-20170128-WA0019"><span>87</span></a>
+		<a href="data1/images/img20170129wa0032.jpg" title="IMG-20170129-WA0032"><span>88</span></a>
+		<a href="data1/images/img20170129wa0037.jpg" title="IMG-20170129-WA0037"><span>89</span></a>
+		<a href="data1/images/img20170130wa0001.jpg" title="IMG-20170130-WA0001"><span>90</span></a>
+		<a href="data1/images/img20170130wa0007.jpg" title="IMG-20170130-WA0007"><span>91</span></a>
+		<a href="data1/images/img20170130wa0009.jpg" title="IMG-20170130-WA0009"><span>92</span></a>
+		<a href="data1/images/img20170130wa0011.jpg" title="IMG-20170130-WA0011"><span>93</span></a>
+		<a href="data1/images/img20170130wa0013.jpg" title="IMG-20170130-WA0013"><span>94</span></a>
+		<a href="data1/images/img20170130wa0034.jpg" title="IMG-20170130-WA0034"><span>95</span></a>
+		<a href="data1/images/img20170131wa000.jpg" title="IMG-20170131-WA000"><span>96</span></a>
+		<a href="data1/images/img20170131wa0003.jpg" title="IMG-20170131-WA0003"><span>97</span></a>
+		<a href="data1/images/img20170131wa0014.jpg" title="IMG-20170131-WA0014"><span>98</span></a>
+		<a href="data1/images/img20170131wa0016.jpg" title="IMG-20170131-WA0016"><span>99</span></a>
+		<a href="data1/images/img20170131wa0017.jpg" title="IMG-20170131-WA0017"><span>100</span></a>
+		<a href="data1/images/img20170131wa0019.jpg" title="IMG-20170131-WA0019"><span>101</span></a>
+		<a href="data1/images/img20170131wa0026.jpg" title="IMG-20170131-WA0026"><span>102</span></a>
+		<a href="data1/images/img20170131wa0030.jpg" title="IMG-20170131-WA0030"><span>103</span></a>
+		<a href="data1/images/img20170131wa0031.jpg" title="IMG-20170131-WA0031"><span>104</span></a>
+		<a href="data1/images/img20170131wa0034.jpg" title="IMG-20170131-WA0034"><span>105</span></a>
+		<a href="data1/images/img20170202wa0022.jpg" title="IMG-20170202-WA0022"><span>106</span></a>
+		<a href="data1/images/img20170202wa0024.jpg" title="IMG-20170202-WA0024"><span>107</span></a>
+		<a href="data1/images/img20170202wa0025.jpg" title="IMG-20170202-WA0025"><span>108</span></a>
+		<a href="data1/images/img20170202wa0026.jpg" title="IMG-20170202-WA0026"><span>109</span></a>
+		<a href="data1/images/img20170202wa0027.jpg" title="IMG-20170202-WA0027"><span>110</span></a>
+		<a href="data1/images/img20170202wa0028.jpg" title="IMG-20170202-WA0028"><span>111</span></a>
+		<a href="data1/images/img20170202wa0030.jpg" title="IMG-20170202-WA0030"><span>112</span></a>
+		<a href="data1/images/img20170202wa0042.jpg" title="IMG-20170202-WA0042"><span>113</span></a>
+		<a href="data1/images/img20170202wa0056.jpg" title="IMG-20170202-WA0056"><span>114</span></a>
+		<a href="data1/images/img20170202wa0064.jpg" title="IMG-20170202-WA0064"><span>115</span></a>
+		<a href="data1/images/img20170203wa0008.jpg" title="IMG-20170203-WA0008"><span>116</span></a>
+		<a href="data1/images/img20170203wa0009.jpg" title="IMG-20170203-WA0009"><span>117</span></a>
+		<a href="data1/images/img20170203wa0010.jpg" title="IMG-20170203-WA0010"><span>118</span></a>
+		<a href="data1/images/img20170203wa0011.jpg" title="IMG-20170203-WA0011"><span>119</span></a>
+		<a href="data1/images/img20170203wa0012.jpg" title="IMG-20170203-WA0012"><span>120</span></a>
+		<a href="data1/images/img20170203wa0014.jpg" title="IMG-20170203-WA0014"><span>121</span></a>
+		<a href="data1/images/img20170203wa0018.jpg" title="IMG-20170203-WA0018"><span>122</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">cssslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
+<div class="instuction">
+	<p class="note">HTML code for the slider <a href="file:///C:/Users/User/Desktop/project/wowslidermovie.html">C:/Users/User/Desktop/project/wowslidermovie.html</a></p>
+
+	<h1>
+		How to add this slider to HTML page
+	</h1>
+
+	<h2><span class="num">1</span> Upload these folders to your server</h2>
+	<ul>
+		<li class="mono">data1/</li>
+		<li class="mono">engine1/</li>
+		<li class="note">Current location: <a href="file:///C:/Users/User/Desktop/project">C:/Users/User/Desktop/project</a>. <br>These folders should be located in the same folder as your html page</li>
+	</ul>
+
+	<h2><span class="num">2</span> Paste this code to your page between the tags <span class="mono">&lt;head&gt;&lt;/head&gt;</span></h2>
+	<textarea onclick="this.select()">&lt;!-- Start WOWSlider.com HEAD section --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;engine1/style.css&quot; /&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;engine1/jquery.js&quot;&gt;&lt;/script&gt;
+&lt;!-- End WOWSlider.com HEAD section --&gt;</textarea>
+
+
+	<h2><span class="num" style="top: -8px;">3</span> Paste this code to your page between the tags <span class="mono">&lt;body&gt;&lt;/body&gt;</span> in the place that you want the slider to appear</h2>
+	<textarea onclick="this.select()" rows="15">&lt;!-- Start WOWSlider.com BODY section --&gt;
+&lt;div id=&quot;wowslider-container1&quot;&gt;
+&lt;div class=&quot;ws_images&quot;&gt;&lt;ul&gt;
+		&lt;li&gt;&lt;img src=&quot;data1/images/img20170103wa0040.jpg&quot; alt=&quot;IMG-20170103-WA0040&quot; title=&quot;IMG-20170103-WA0040&quot; id=&quot;wows1_0&quot;/&gt;&lt;/li&gt;
+	&lt;/ul&gt;&lt;/div&gt;
+	&lt;div class=&quot;ws_bullets&quot;&gt;&lt;div&gt;
+		&lt;a href=&quot;data1/images/img20170103wa0040.jpg&quot; title=&quot;IMG-20170103-WA0040&quot;&gt;&lt;span&gt;&lt;img src=&quot;data1/tooltips/img20170103wa0040.jpg&quot; alt=&quot;IMG-20170103-WA0040&quot;/&gt;1&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170103wa0041.jpg&quot; title=&quot;IMG-20170103-WA0041&quot;&gt;&lt;span&gt;2&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170103wa0042.jpg&quot; title=&quot;IMG-20170103-WA0042&quot;&gt;&lt;span&gt;3&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170103wa0043.jpg&quot; title=&quot;IMG-20170103-WA0043&quot;&gt;&lt;span&gt;4&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170103wa0044.jpg&quot; title=&quot;IMG-20170103-WA0044&quot;&gt;&lt;span&gt;5&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170105wa0007.jpg&quot; title=&quot;IMG-20170105-WA0007&quot;&gt;&lt;span&gt;6&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170105wa0010.jpg&quot; title=&quot;IMG-20170105-WA0010&quot;&gt;&lt;span&gt;7&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170105wa0011.jpg&quot; title=&quot;IMG-20170105-WA0011&quot;&gt;&lt;span&gt;8&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170106wa012.jpg&quot; title=&quot;IMG-20170106-WA012&quot;&gt;&lt;span&gt;9&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170106wa014.jpg&quot; title=&quot;IMG-20170106-WA014&quot;&gt;&lt;span&gt;10&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170106wa015.jpg&quot; title=&quot;IMG-20170106-WA015&quot;&gt;&lt;span&gt;11&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170106wa027.jpg&quot; title=&quot;IMG-20170106-WA027&quot;&gt;&lt;span&gt;12&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170106wa028.jpg&quot; title=&quot;IMG-20170106-WA028&quot;&gt;&lt;span&gt;13&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170106wa029.jpg&quot; title=&quot;IMG-20170106-WA029&quot;&gt;&lt;span&gt;14&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170106wa030.jpg&quot; title=&quot;IMG-20170106-WA030&quot;&gt;&lt;span&gt;15&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170106wa031.jpg&quot; title=&quot;IMG-20170106-WA031&quot;&gt;&lt;span&gt;16&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170106wa032.jpg&quot; title=&quot;IMG-20170106-WA032&quot;&gt;&lt;span&gt;17&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170106wa034.jpg&quot; title=&quot;IMG-20170106-WA034&quot;&gt;&lt;span&gt;18&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170107wa0026.jpg&quot; title=&quot;IMG-20170107-WA0026&quot;&gt;&lt;span&gt;19&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170107wa0027.jpg&quot; title=&quot;IMG-20170107-WA0027&quot;&gt;&lt;span&gt;20&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170107wa0028.jpg&quot; title=&quot;IMG-20170107-WA0028&quot;&gt;&lt;span&gt;21&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170110wa0002.jpg&quot; title=&quot;IMG-20170110-WA0002&quot;&gt;&lt;span&gt;22&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170110wa0003.jpg&quot; title=&quot;IMG-20170110-WA0003&quot;&gt;&lt;span&gt;23&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170110wa0009.jpg&quot; title=&quot;IMG-20170110-WA0009&quot;&gt;&lt;span&gt;24&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170110wa0012.jpg&quot; title=&quot;IMG-20170110-WA0012&quot;&gt;&lt;span&gt;25&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170110wa0013.jpg&quot; title=&quot;IMG-20170110-WA0013&quot;&gt;&lt;span&gt;26&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170110wa0014.jpg&quot; title=&quot;IMG-20170110-WA0014&quot;&gt;&lt;span&gt;27&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170110wa0021.jpg&quot; title=&quot;IMG-20170110-WA0021&quot;&gt;&lt;span&gt;28&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170110wa0025.jpg&quot; title=&quot;IMG-20170110-WA0025&quot;&gt;&lt;span&gt;29&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170110wa0026.jpg&quot; title=&quot;IMG-20170110-WA0026&quot;&gt;&lt;span&gt;30&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170112wa0001.jpg&quot; title=&quot;IMG-20170112-WA0001&quot;&gt;&lt;span&gt;31&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170112wa0002.jpg&quot; title=&quot;IMG-20170112-WA0002&quot;&gt;&lt;span&gt;32&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170112wa0012.jpg&quot; title=&quot;IMG-20170112-WA0012&quot;&gt;&lt;span&gt;33&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170112wa0013.jpg&quot; title=&quot;IMG-20170112-WA0013&quot;&gt;&lt;span&gt;34&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170112wa0015.jpg&quot; title=&quot;IMG-20170112-WA0015&quot;&gt;&lt;span&gt;35&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170112wa0017.jpg&quot; title=&quot;IMG-20170112-WA0017&quot;&gt;&lt;span&gt;36&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170112wa0018.jpg&quot; title=&quot;IMG-20170112-WA0018&quot;&gt;&lt;span&gt;37&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170112wa0033.jpg&quot; title=&quot;IMG-20170112-WA0033&quot;&gt;&lt;span&gt;38&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170112wa0034.jpg&quot; title=&quot;IMG-20170112-WA0034&quot;&gt;&lt;span&gt;39&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170112wa0035.jpg&quot; title=&quot;IMG-20170112-WA0035&quot;&gt;&lt;span&gt;40&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170112wa0037.jpg&quot; title=&quot;IMG-20170112-WA0037&quot;&gt;&lt;span&gt;41&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170113wa0062.jpg&quot; title=&quot;IMG-20170113-WA0062&quot;&gt;&lt;span&gt;42&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170113wa0063.jpg&quot; title=&quot;IMG-20170113-WA0063&quot;&gt;&lt;span&gt;43&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170113wa0065.jpg&quot; title=&quot;IMG-20170113-WA0065&quot;&gt;&lt;span&gt;44&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170113wa0078.jpg&quot; title=&quot;IMG-20170113-WA0078&quot;&gt;&lt;span&gt;45&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170113wa0104.jpg&quot; title=&quot;IMG-20170113-WA0104&quot;&gt;&lt;span&gt;46&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170113wa0106.jpg&quot; title=&quot;IMG-20170113-WA0106&quot;&gt;&lt;span&gt;47&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170116wa002.jpg&quot; title=&quot;IMG-20170116-WA002&quot;&gt;&lt;span&gt;48&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170116wa003.jpg&quot; title=&quot;IMG-20170116-WA003&quot;&gt;&lt;span&gt;49&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170118wa000.jpg&quot; title=&quot;IMG-20170118-WA000&quot;&gt;&lt;span&gt;50&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170118wa0008.jpg&quot; title=&quot;IMG-20170118-WA0008&quot;&gt;&lt;span&gt;51&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170118wa0010.jpg&quot; title=&quot;IMG-20170118-WA0010&quot;&gt;&lt;span&gt;52&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170119wa0001.jpg&quot; title=&quot;IMG-20170119-WA0001&quot;&gt;&lt;span&gt;53&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170119wa0002.jpg&quot; title=&quot;IMG-20170119-WA0002&quot;&gt;&lt;span&gt;54&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170119wa0003.jpg&quot; title=&quot;IMG-20170119-WA0003&quot;&gt;&lt;span&gt;55&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170119wa0015.jpg&quot; title=&quot;IMG-20170119-WA0015&quot;&gt;&lt;span&gt;56&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170119wa0016.jpg&quot; title=&quot;IMG-20170119-WA0016&quot;&gt;&lt;span&gt;57&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170119wa0021.jpg&quot; title=&quot;IMG-20170119-WA0021&quot;&gt;&lt;span&gt;58&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170120wa0004.jpg&quot; title=&quot;IMG-20170120-WA0004&quot;&gt;&lt;span&gt;59&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170120wa0007.jpg&quot; title=&quot;IMG-20170120-WA0007&quot;&gt;&lt;span&gt;60&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170120wa0008.jpg&quot; title=&quot;IMG-20170120-WA0008&quot;&gt;&lt;span&gt;61&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170120wa0014.jpg&quot; title=&quot;IMG-20170120-WA0014&quot;&gt;&lt;span&gt;62&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170120wa0015.jpg&quot; title=&quot;IMG-20170120-WA0015&quot;&gt;&lt;span&gt;63&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170120wa0016.jpg&quot; title=&quot;IMG-20170120-WA0016&quot;&gt;&lt;span&gt;64&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170120wa0017.jpg&quot; title=&quot;IMG-20170120-WA0017&quot;&gt;&lt;span&gt;65&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170121wa0001.jpg&quot; title=&quot;IMG-20170121-WA0001&quot;&gt;&lt;span&gt;66&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170121wa0002.jpg&quot; title=&quot;IMG-20170121-WA0002&quot;&gt;&lt;span&gt;67&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170121wa0003.jpg&quot; title=&quot;IMG-20170121-WA0003&quot;&gt;&lt;span&gt;68&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170123wa0002.jpg&quot; title=&quot;IMG-20170123-WA0002&quot;&gt;&lt;span&gt;69&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170123wa0025.jpg&quot; title=&quot;IMG-20170123-WA0025&quot;&gt;&lt;span&gt;70&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170124wa0002.jpg&quot; title=&quot;IMG-20170124-WA0002&quot;&gt;&lt;span&gt;71&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170124wa0003.jpg&quot; title=&quot;IMG-20170124-WA0003&quot;&gt;&lt;span&gt;72&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170124wa0018.jpg&quot; title=&quot;IMG-20170124-WA0018&quot;&gt;&lt;span&gt;73&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170124wa0021.jpg&quot; title=&quot;IMG-20170124-WA0021&quot;&gt;&lt;span&gt;74&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170124wa0031.jpg&quot; title=&quot;IMG-20170124-WA0031&quot;&gt;&lt;span&gt;75&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170124wa0032.jpg&quot; title=&quot;IMG-20170124-WA0032&quot;&gt;&lt;span&gt;76&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170124wa0036.jpg&quot; title=&quot;IMG-20170124-WA0036&quot;&gt;&lt;span&gt;77&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170125wa000.jpg&quot; title=&quot;IMG-20170125-WA000&quot;&gt;&lt;span&gt;78&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170125wa0002.jpg&quot; title=&quot;IMG-20170125-WA0002&quot;&gt;&lt;span&gt;79&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170125wa0003.jpg&quot; title=&quot;IMG-20170125-WA0003&quot;&gt;&lt;span&gt;80&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170126wa0004.jpg&quot; title=&quot;IMG-20170126-WA0004&quot;&gt;&lt;span&gt;81&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170126wa0005.jpg&quot; title=&quot;IMG-20170126-WA0005&quot;&gt;&lt;span&gt;82&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170128wa0012.jpg&quot; title=&quot;IMG-20170128-WA0012&quot;&gt;&lt;span&gt;83&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170128wa0015.jpg&quot; title=&quot;IMG-20170128-WA0015&quot;&gt;&lt;span&gt;84&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170128wa0016.jpg&quot; title=&quot;IMG-20170128-WA0016&quot;&gt;&lt;span&gt;85&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170128wa0017.jpg&quot; title=&quot;IMG-20170128-WA0017&quot;&gt;&lt;span&gt;86&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170128wa0019.jpg&quot; title=&quot;IMG-20170128-WA0019&quot;&gt;&lt;span&gt;87&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170129wa0032.jpg&quot; title=&quot;IMG-20170129-WA0032&quot;&gt;&lt;span&gt;88&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170129wa0037.jpg&quot; title=&quot;IMG-20170129-WA0037&quot;&gt;&lt;span&gt;89&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170130wa0001.jpg&quot; title=&quot;IMG-20170130-WA0001&quot;&gt;&lt;span&gt;90&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170130wa0007.jpg&quot; title=&quot;IMG-20170130-WA0007&quot;&gt;&lt;span&gt;91&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170130wa0009.jpg&quot; title=&quot;IMG-20170130-WA0009&quot;&gt;&lt;span&gt;92&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170130wa0011.jpg&quot; title=&quot;IMG-20170130-WA0011&quot;&gt;&lt;span&gt;93&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170130wa0013.jpg&quot; title=&quot;IMG-20170130-WA0013&quot;&gt;&lt;span&gt;94&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170130wa0034.jpg&quot; title=&quot;IMG-20170130-WA0034&quot;&gt;&lt;span&gt;95&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170131wa000.jpg&quot; title=&quot;IMG-20170131-WA000&quot;&gt;&lt;span&gt;96&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170131wa0003.jpg&quot; title=&quot;IMG-20170131-WA0003&quot;&gt;&lt;span&gt;97&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170131wa0014.jpg&quot; title=&quot;IMG-20170131-WA0014&quot;&gt;&lt;span&gt;98&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170131wa0016.jpg&quot; title=&quot;IMG-20170131-WA0016&quot;&gt;&lt;span&gt;99&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170131wa0017.jpg&quot; title=&quot;IMG-20170131-WA0017&quot;&gt;&lt;span&gt;100&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170131wa0019.jpg&quot; title=&quot;IMG-20170131-WA0019&quot;&gt;&lt;span&gt;101&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170131wa0026.jpg&quot; title=&quot;IMG-20170131-WA0026&quot;&gt;&lt;span&gt;102&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170131wa0030.jpg&quot; title=&quot;IMG-20170131-WA0030&quot;&gt;&lt;span&gt;103&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170131wa0031.jpg&quot; title=&quot;IMG-20170131-WA0031&quot;&gt;&lt;span&gt;104&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170131wa0034.jpg&quot; title=&quot;IMG-20170131-WA0034&quot;&gt;&lt;span&gt;105&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170202wa0022.jpg&quot; title=&quot;IMG-20170202-WA0022&quot;&gt;&lt;span&gt;106&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170202wa0024.jpg&quot; title=&quot;IMG-20170202-WA0024&quot;&gt;&lt;span&gt;107&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170202wa0025.jpg&quot; title=&quot;IMG-20170202-WA0025&quot;&gt;&lt;span&gt;108&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170202wa0026.jpg&quot; title=&quot;IMG-20170202-WA0026&quot;&gt;&lt;span&gt;109&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170202wa0027.jpg&quot; title=&quot;IMG-20170202-WA0027&quot;&gt;&lt;span&gt;110&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170202wa0028.jpg&quot; title=&quot;IMG-20170202-WA0028&quot;&gt;&lt;span&gt;111&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170202wa0030.jpg&quot; title=&quot;IMG-20170202-WA0030&quot;&gt;&lt;span&gt;112&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170202wa0042.jpg&quot; title=&quot;IMG-20170202-WA0042&quot;&gt;&lt;span&gt;113&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170202wa0056.jpg&quot; title=&quot;IMG-20170202-WA0056&quot;&gt;&lt;span&gt;114&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170202wa0064.jpg&quot; title=&quot;IMG-20170202-WA0064&quot;&gt;&lt;span&gt;115&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170203wa0008.jpg&quot; title=&quot;IMG-20170203-WA0008&quot;&gt;&lt;span&gt;116&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170203wa0009.jpg&quot; title=&quot;IMG-20170203-WA0009&quot;&gt;&lt;span&gt;117&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170203wa0010.jpg&quot; title=&quot;IMG-20170203-WA0010&quot;&gt;&lt;span&gt;118&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170203wa0011.jpg&quot; title=&quot;IMG-20170203-WA0011&quot;&gt;&lt;span&gt;119&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170203wa0012.jpg&quot; title=&quot;IMG-20170203-WA0012&quot;&gt;&lt;span&gt;120&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170203wa0014.jpg&quot; title=&quot;IMG-20170203-WA0014&quot;&gt;&lt;span&gt;121&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;data1/images/img20170203wa0018.jpg&quot; title=&quot;IMG-20170203-WA0018&quot;&gt;&lt;span&gt;122&lt;/span&gt;&lt;/a&gt;
+	&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;ws_script&quot; style=&quot;position:absolute;left:-99%&quot;&gt;&lt;a href=&quot;http://wowslider.com/vi&quot;&gt;cssslider&lt;/a&gt; by WOWSlider.com v8.7&lt;/div&gt;
+&lt;div class=&quot;ws_shadow&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;	
+&lt;script type=&quot;text/javascript&quot; src=&quot;engine1/wowslider.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;engine1/script.js&quot;&gt;&lt;/script&gt;
+&lt;!-- End WOWSlider.com BODY section --&gt;</textarea>
+
+<br><br>
+<h2>Also you can try the <a href="http://wowslider.com/help/add-wowslider-to-page-2.html" target="_blank">Insert-To-Page wizard</a>, to add the slider visually, without touching the code!</h2>
+<p>
+	<a href="http://wowslider.com/help/add-wowslider-to-page-2.html" target="_blank">Click here</a> for the detailed info.
+</p>
+</div>
+
+<br><br>
+</body>
+</html>
